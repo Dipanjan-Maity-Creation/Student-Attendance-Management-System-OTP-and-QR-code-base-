@@ -428,7 +428,7 @@ public class markattendance extends javax.swing.JFrame implements Runnable, Thre
         props.put("mail.smtp.port", "587");
         Session session = Session.getInstance(props, new Authenticator() {
             protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication("Yor e-mail Id", "Your Google App Password");
+                return new PasswordAuthentication("Your e-mail Id", "Your Google App Password");
             }
         });
         try {
